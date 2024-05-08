@@ -21,5 +21,10 @@ Use 4 spaces for indenting.
     ```else:``` can also follow to add an else statement. 
 # Loops
 ```for``` loops are written as ```for i in blank```. each line under the colon, in the body of the loop, has to be indented.  
-
+# Functions 
+you can define functions like 
+```
+def function():
+    code
+```
 
