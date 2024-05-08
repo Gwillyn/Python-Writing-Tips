@@ -1,5 +1,7 @@
 # Python-Writing-Tips
 A repository to document knowledge for Python.
+# Python
+Python is a high level, interpreted, OOP language. 
 # Variables 
 Variable names cannot start with a number and they can only contain alpha numeric characters or underscores. You can't use reserved keywords for variable names. In Python, snake_case is prefered. 
 # Indexing
