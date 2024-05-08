@@ -5,6 +5,8 @@ Python is a high level, interpreted, OOP language.
 # Variables 
 Variable names cannot start with a number and they can only contain alpha numeric characters or underscores. You can't use reserved keywords for variable names. In Python, snake_case is prefered. 
 You cannot change a string variable after it is made, but changes made to a string variable can be assigned to a new variable. 
+# Operators
+the modulo operator % is be used to return the remainder of the division between 2 numbers. 7%2 is 1, because 7/2 is 3 with 1 left over. 
 # Indexing
 Python is 0 indexed, and you can access indiivdual string characters with an index of where it is. ```string = "Hello World"``` - to print 'r' = ```print(string[9])```, or ```print(string[-3])``` (the negative indexing indicates the end of the string). More than one argument can be used in cases like ```print()```, as long as they're separated by a comma.    
 Use 4 spaces for indenting.  
