@@ -1,5 +1,5 @@
 # Python-Writing-Tips
-A repository to document knowledge for Python.
+A repository to document some of my knowledge on Python.
 # Python
 Python is a high level, interpreted, OOP language. 
 # Variables 
