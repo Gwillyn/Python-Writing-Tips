@@ -27,4 +27,6 @@ you can define functions like
 def function():
     code
 ```
+# Errors 
+A ```valueError``` is built in as an exception that is raised when the argument with the right type but inappropriate value is passed to a function. ```.index()``` is the same as ```find()``` but will throw a ```valueError```, if it is unable to find the substring. 
 
