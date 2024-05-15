@@ -14,6 +14,7 @@ Use 4 spaces for indenting.
 ```len()``` will show the number of items in the string. So ```print(len(string))``` will print '11'.    
 ```type()``` will output the data type of the input.   
 ```.find()``` method will find a value in a variable. So if you want to find 'W' in a string = ```find('W')```.  
+```.isalpha()``` method returns ```True``` if all of the characters in the string are letters when it is called. ```'something'.isalpha()``` will return ```True```.
 ```.lower()``` converts to lowercase.  
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
