@@ -16,6 +16,8 @@ Use 4 spaces for indenting.
 ```.find()``` method will find a value in a variable. So if you want to find 'W' in a string = ```find('W')```.  
 ```.isalpha()``` method returns ```True``` if all of the characters in the string are letters when it is called. ```'something'.isalpha()``` will return ```True```.
 ```.lower()``` converts to lowercase.  
+```not``` is an operator to make Truthy values return False. so ```if not thing.isalpha()``` would return ```False``` if it was true.
+```pass``` cna be used as placeholder for future code. It can save from errors. 
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
     print(x)```  
