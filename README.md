@@ -11,6 +11,7 @@ the modulo operator % is be used to return the remainder of the division between
 Python is 0 indexed, and you can access indiivdual string characters with an index of where it is. ```string = "Hello World"``` - to print 'r' = ```print(string[9])```, or ```print(string[-3])``` (the negative indexing indicates the end of the string). More than one argument can be used in cases like ```print()```, as long as they're separated by a comma.    
 Use 4 spaces for indenting.  
 # Syntaxes
+```\n``` represents a new line.  
 ```len()``` will show the number of items in the string. So ```print(len(string))``` will print '11'.    
 ```type()``` will output the data type of the input.   
 ```.find()``` method will find a value in a variable. So if you want to find 'W' in a string = ```find('W')```.  
