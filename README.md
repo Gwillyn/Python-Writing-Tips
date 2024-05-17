@@ -33,4 +33,8 @@ def function():
 Default values in parameters can be used to indicate a default if such parameter is not specified. So, ```function(parm=1)``` will set the ```parm``` parameter a default of 1.
 # Errors 
 A ```valueError``` is built in as an exception that is raised when the argument with the right type but inappropriate value is passed to a function. ```.index()``` is the same as ```find()``` but will throw a ```valueError```, if it is unable to find the substring. 
+# f-strings
+allow for interpolation.  
+Instead of writing ```'Something: ' + thing```, you cna use an f-string to write it like: ```f'Something: {thing}'.```  
+The ```f``` needs to be written before the string, and the variable being interpolated is written in curly ```{}``` braces.  
 
