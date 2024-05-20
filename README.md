@@ -1,4 +1,4 @@
-# Python-Writing-Tips
+# Python Writing Tips
 A repository to document some of my knowledge on Python.  
 This is not intended to be interpreted by anybody BUT the author.  
 # Python
