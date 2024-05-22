@@ -25,7 +25,12 @@ Use 4 spaces for indenting.
 ```.lower()``` converts to lowercase.  
 ```not``` is an operator to make Truthy values return False. so ```if not thing.isalpha()``` would return ```False``` if it was true.
 ```pass``` cna be used as placeholder for future code. It can save from errors. 
-```str()``` is a function that converts a value into a string. It can also have attributes, like: ```str.maketrans({'r': '', 't': ''})```, which will make all ```r```s and ```t```s into empty strings.
+```str()``` is a function that converts a value into a string. It can also have attributes, like: ```str.maketrans({'r': '', 't': ''})```, which will make all ```r```s and ```t```s into empty strings. For this to work, however, you will need to call a translate method on the original string, like 
+```
+string = "hello world"
+string_translation = str.maketrans({'r': '', 't': ''})
+translated_string = string.translate(string_translation)
+```
 
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
