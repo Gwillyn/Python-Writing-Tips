@@ -33,10 +33,13 @@ string_translation = str.maketrans({'r': '', 't': ''})
 translated_string = string.translate(string_translation)
 ```  
 ```filter()``` allows for the selection of items from an iterable, like a list, on the output of a function. ```filter(function, list)``` - the elements of ```list``` are included for the ```function``` to return.  
+```float()``` takes a string/integer as an argument and returns a floating point number. 
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
     print(x)```  
-    ```else:``` can also follow to add an else statement. 
+    ```else:``` can also follow to add an else statement.   
+```elif``` checks additional conditions. It only works following the ```if```. 
+
 
 # Loops
 ```for``` loops are written as ```for i in blank```. each line under the colon, in the body of the loop, has to be indented.  
