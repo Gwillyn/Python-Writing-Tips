@@ -15,7 +15,7 @@ the modulo operator % is be used to return the remainder of the division between
 # Indexing
 Python is 0 indexed, and you can access indiivdual string characters with an index of where it is. ```string = "Hello World"``` - to print 'r' = ```print(string[9])```, or ```print(string[-3])``` (the negative indexing indicates the end of the string). More than one argument can be used in cases like ```print()```, as long as they're separated by a comma.    
 Use 4 spaces for indenting.  
-You can also set a range of characters in a string with ```string[a:b:c]```, where ```a``` is the start, ```b``` is the end, and ```c``` is the step (or amount of elements to skip over.
+You can also set a range of characters in a string with ```string[a:b:c]```, where ```a``` is the start, ```b``` is the end, and ```c``` is the step (or amount of elements to skip over. You can out negative indexes to reverse the elements.
 
 # Syntaxes
 ```\n``` represents a new line.  
