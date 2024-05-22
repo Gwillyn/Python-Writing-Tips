@@ -15,6 +15,7 @@ the modulo operator % is be used to return the remainder of the division between
 # Indexing
 Python is 0 indexed, and you can access indiivdual string characters with an index of where it is. ```string = "Hello World"``` - to print 'r' = ```print(string[9])```, or ```print(string[-3])``` (the negative indexing indicates the end of the string). More than one argument can be used in cases like ```print()```, as long as they're separated by a comma.    
 Use 4 spaces for indenting.  
+You can also set a range of characters in a string with ```string[a:b:c]```, where ```a``` is the start, ```b``` is the end, and ```c``` is the step (or amount of elements to skip over.
 
 # Syntaxes
 ```\n``` represents a new line.  
@@ -26,11 +27,11 @@ Use 4 spaces for indenting.
 ```not``` is an operator to make Truthy values return False. so ```if not thing.isalpha()``` would return ```False``` if it was true.
 ```pass``` cna be used as placeholder for future code. It can save from errors. 
 ```str()``` is a function that converts a value into a string. It can also have attributes, like: ```str.maketrans({'r': '', 't': ''})```, which will make all ```r```s and ```t```s into empty strings. For this to work, however, you will need to call a translate method on the original string, like 
-```
+```  
 string = "hello world"
 string_translation = str.maketrans({'r': '', 't': ''})
 translated_string = string.translate(string_translation)
-```
+```  
 
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
