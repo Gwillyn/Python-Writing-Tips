@@ -49,6 +49,10 @@ def function():
 ```
 Default values in parameters can be used to indicate a default if such parameter is not specified. So, ```function(parm=1)``` will set the ```parm``` parameter a default of 1.
 
+# Lambda Functions
+Are simple, anonymous functions. Like call-back functions in javascript for reference.   
+defined by the ```lambda``` keyword. They are like: ```lambda x: expr``` - ```x``` would be the parameter for the expression of ```expr```. 
+
 # Errors 
 A ```valueError``` is built in as an exception that is raised when the argument with the right type but inappropriate value is passed to a function. ```.index()``` is the same as ```find()``` but will throw a ```valueError```, if it is unable to find the substring.   
 A TypeError cna be because you try to add a string to an integer. To fix this, convert the string variable into an integer using the built-in ```int``` function.  
@@ -65,4 +69,7 @@ It goes like this:
     2. take sum of all the digits
     3. If that sum is a multiple of 10, the number is valid, else it is not.
 ```
+# Dictionaries
+This is a built-in data type, which is a collection of data in the form of key-value pairs.   
+defined by curly braces ```{}```. Think of them as objects in javascript for reference.
 
