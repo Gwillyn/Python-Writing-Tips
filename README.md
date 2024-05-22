@@ -51,7 +51,8 @@ Default values in parameters can be used to indicate a default if such parameter
 
 # Lambda Functions
 Are simple, anonymous functions. Like call-back functions in javascript for reference.   
-defined by the ```lambda``` keyword. They are like: ```lambda x: expr``` - ```x``` would be the parameter for the expression of ```expr```. 
+defined by the ```lambda``` keyword. They are like: ```lambda x: expr``` - ```x``` would be the parameter for the expression of ```expr```.   
+Using lambda functions with the ```map()``` function (which executes a function for each element in a collection of objects). Like: ```map(lambda x: x*4, [2, 4, 6])```.
 
 # Errors 
 A ```valueError``` is built in as an exception that is raised when the argument with the right type but inappropriate value is passed to a function. ```.index()``` is the same as ```find()``` but will throw a ```valueError```, if it is unable to find the substring.   
