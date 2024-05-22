@@ -56,5 +56,11 @@ allow for interpolation.
 Instead of writing ```'Something: ' + thing```, you cna use an f-string to write it like: ```f'Something: {thing}'.```  
 The ```f``` needs to be written before the string, and the variable being interpolated is written in curly ```{}``` braces.  
 # Luhn Algorithm
-A formula used to validate a variety of identification numbers.  
+A formula used to validate a variety of identification numbers.    
+It goes like this: 
+```
+    1. Right to Left - double the value of every second digit, if product is greater than 9 you sum the digits of it.  
+    2. take sum of all the digits
+    3. If that sum is a multiple of 10, the number is valid, else it is not.
+```
 
