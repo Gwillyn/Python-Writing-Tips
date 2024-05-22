@@ -32,7 +32,7 @@ string = "hello world"
 string_translation = str.maketrans({'r': '', 't': ''})
 translated_string = string.translate(string_translation)
 ```  
-
+```filter()``` allows for the selection of items from an iterable, like a list, on the output of a function. ```filter(function, list)``` - the elements of ```list``` are included for the ```function``` to return.  
 # ```If``` Statements 
 ```if``` is followed by a condition and a colon. ```if x != 0:  
     print(x)```  
@@ -40,6 +40,7 @@ translated_string = string.translate(string_translation)
 
 # Loops
 ```for``` loops are written as ```for i in blank```. each line under the colon, in the body of the loop, has to be indented.  
+```while``` loops runs a portion of code until the specified condition is ```True```. ```while condition:```. 
 
 # Functions 
 you can define functions like 
