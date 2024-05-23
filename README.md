@@ -78,3 +78,6 @@ It goes like this:
 This is a built-in data type, which is a collection of data in the form of key-value pairs.   
 defined by curly braces ```{}```. Think of them as objects in javascript for reference.
 
+# List Comprehensions 
+A more concise way of constructing lists in Python. 
+
