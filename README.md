@@ -81,3 +81,5 @@ defined by curly braces ```{}```. Think of them as objects in javascript for ref
 # List Comprehensions 
 A more concise way of constructing lists in Python. 
 
+# Import
+You can import Python modules to get different functionalities, like the ```random``` import. others include: ```secrets, string, ```.
